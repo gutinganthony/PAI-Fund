@@ -30,6 +30,16 @@
 盤整         →    S5 趨勢(短線) + S2 價值(累積)
 ```
 
+## 主題監控（Theme Watchlist）
+
+| 主題 | 熱度 | 重點標的 | 備註 |
+|------|------|---------|------|
+| 光通訊 | 🔥🔥🔥 | LITE, CIEN, COHR, AAOI | AI 互連剛需，4/5 趨勢強 |
+| 太空 | 🔥🔥 | RKLB, ASTS, LUNR, PL | 8/12 趨勢強但多數未盈利 |
+| CPU/處理器 | 🔥🔥 | INTC, MRVL, QCOM, ARM | QCOM 超賣(-38%)值得關注 |
+
+掃描工具：`python review/theme_watchlist.py`
+
 ## 進化規則
 
 - 每週復盤一次（週日）
