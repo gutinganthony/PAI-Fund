@@ -1,0 +1,104 @@
+{
+  "updated_at": "2026-04-09 03:45",
+  "portfolio": {
+    "total_value": 183509.21,
+    "total_invested": 9979.87,
+    "total_pnl": 432.26,
+    "total_pnl_pct": 4.33,
+    "cash": {
+      "okx_usdt": 78097.08,
+      "alpaca_usd": 95000.0,
+      "total_cash": 173097.08
+    },
+    "allocation_pct": 5.4
+  },
+  "positions": {
+    "crypto": [
+      {
+        "symbol": "BTC",
+        "quantity": 0.043956,
+        "platform": "OKX Demo",
+        "current_price": 70974.78,
+        "avg_entry": 67975,
+        "market_value": 3119.77,
+        "unrealized_pnl": 131.86,
+        "unrealized_pnl_pct": 4.41,
+        "strategy": "S4-panic-rebound"
+      },
+      {
+        "symbol": "ETH",
+        "quantity": 0.733459806,
+        "platform": "OKX Demo",
+        "current_price": 2179.15,
+        "avg_entry": 2036.88,
+        "market_value": 1598.32,
+        "unrealized_pnl": 104.35,
+        "unrealized_pnl_pct": 6.98,
+        "strategy": "S4-panic-rebound"
+      },
+      {
+        "symbol": "SOL",
+        "quantity": 6.237368388,
+        "platform": "OKX Demo",
+        "current_price": 82.19,
+        "avg_entry": 79.84,
+        "market_value": 512.65,
+        "unrealized_pnl": 14.66,
+        "unrealized_pnl_pct": 2.94,
+        "strategy": "S4-panic-rebound"
+      }
+    ],
+    "us_stocks": [
+      {
+        "symbol": "CEG",
+        "quantity": 10.990212968,
+        "avg_entry": 272.970142,
+        "current_price": 285.01,
+        "market_value": 3132.320598,
+        "unrealized_pnl": 132.320604,
+        "unrealized_pnl_pct": 4.4110000000000005,
+        "platform": "Alpaca Paper",
+        "strategy": "Leopold-AI-Energy"
+      },
+      {
+        "symbol": "VST",
+        "quantity": 13.150203599,
+        "avg_entry": 152.0889,
+        "current_price": 155.82,
+        "market_value": 2049.064725,
+        "unrealized_pnl": 49.064725,
+        "unrealized_pnl_pct": 2.453,
+        "platform": "Alpaca Paper",
+        "strategy": "Leopold-AI-Energy"
+      }
+    ]
+  },
+  "strategies": {
+    "S4-panic-rebound": {
+      "positions": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "total_value": 5230.74,
+      "total_pnl": 250.87
+    },
+    "Leopold-AI-Energy": {
+      "positions": [
+        "CEG",
+        "VST"
+      ],
+      "total_value": 5181.385323,
+      "total_pnl": 181.385329
+    }
+  },
+  "market": {
+    "spy": 6782.81,
+    "vix": 21.04,
+    "crypto_fear_greed": 14,
+    "crypto_fear_greed_label": "Extreme Fear",
+    "btc": 70974.78,
+    "eth": 2179.15,
+    "sol": 82.19
+  }
+}
