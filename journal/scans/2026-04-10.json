@@ -1,13 +1,13 @@
 {
   "date": "2026-04-10",
-  "timestamp": "2026-04-10T10:21:16.170725",
+  "timestamp": "2026-04-10T11:25:52.864746",
   "market": {
-    "crypto_temp": 36.3,
+    "crypto_temp": 36.2,
     "us_temp": 50.0,
-    "overall_temp": 43.15,
+    "overall_temp": 43.1,
     "fear_greed": 16.0,
-    "btc_price": 71761.41,
-    "btc_rsi": 66.7,
+    "btc_price": 71774.945,
+    "btc_rsi": 66.6,
     "vix_proxy": 0
   },
   "positions": [
@@ -25,45 +25,45 @@
       "platform": "Alpaca",
       "qty": 25.573382147,
       "avg_price": 371.48,
-      "current_price": 374.69,
-      "pnl_pct": 0.864,
-      "market_value": 9582.090557
+      "current_price": 374.9,
+      "pnl_pct": 0.9209999999999999,
+      "market_value": 9587.460967
     },
     {
       "symbol": "VST",
       "platform": "Alpaca",
       "qty": 13.150203599,
       "avg_price": 152.0889,
-      "current_price": 153.5,
-      "pnl_pct": 0.928,
-      "market_value": 2018.556252
+      "current_price": 154.0,
+      "pnl_pct": 1.257,
+      "market_value": 2025.131354
     },
     {
       "symbol": "BTC",
       "platform": "OKX Demo",
       "qty": 0.044,
       "avg_price": 67975,
-      "current_price": 71761.41,
+      "current_price": 71774.945,
       "pnl_pct": 5.6,
-      "market_value": 3157.5
+      "market_value": 3158.1
     },
     {
       "symbol": "ETH",
       "platform": "OKX Demo",
       "qty": 0.7342,
       "avg_price": 2037,
-      "current_price": 2189.0308,
-      "pnl_pct": 7.5,
-      "market_value": 1607.19
+      "current_price": 2193.1755,
+      "pnl_pct": 7.7,
+      "market_value": 1610.23
     },
     {
       "symbol": "SOL",
       "platform": "OKX Demo",
       "qty": 6.2436,
       "avg_price": 79.84,
-      "current_price": 83.1773,
-      "pnl_pct": 4.2,
-      "market_value": 519.33
+      "current_price": 83.446266,
+      "pnl_pct": 4.5,
+      "market_value": 521.01
     }
   ],
   "s4_check": {
@@ -75,9 +75,9 @@
     "triggered_count": 0,
     "should_execute": false,
     "fear_greed": 16.0,
-    "btc_rsi": 66.7,
-    "btc_price": 71761.41
+    "btc_rsi": 66.6,
+    "btc_price": 71774.945
   },
   "alerts": [],
-  "summary": "Crypto:36.3 US:50.0 F&G:16.0 | 6 positions | S4: 0/3 | Alerts: 0"
+  "summary": "Crypto:36.2 US:50.0 F&G:16.0 | 6 positions | S4: 0/3 | Alerts: 0"
 }

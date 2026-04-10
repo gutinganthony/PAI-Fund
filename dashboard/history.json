@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "date": "2026-04-10",
+    "total_capital": 183587.18,
+    "invested_value": 19990.17,
+    "invested_cost": 0.0,
+    "unrealized_pnl": 19990.17,
+    "position_count": 6,
+    "crypto_temp": 36.2,
+    "us_temp": 50.0,
+    "fear_greed": 16.0
+  }
+]
