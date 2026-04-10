@@ -1,104 +1,169 @@
 {
-  "updated_at": "2026-04-09 03:45",
-  "portfolio": {
-    "total_value": 183509.21,
-    "total_invested": 9979.87,
-    "total_pnl": 432.26,
-    "total_pnl_pct": 4.33,
-    "cash": {
-      "okx_usdt": 78097.08,
-      "alpaca_usd": 95000.0,
-      "total_cash": 173097.08
-    },
-    "allocation_pct": 5.4
-  },
-  "positions": {
-    "crypto": [
-      {
-        "symbol": "BTC",
-        "quantity": 0.043956,
-        "platform": "OKX Demo",
-        "current_price": 70974.78,
-        "avg_entry": 67975,
-        "market_value": 3119.77,
-        "unrealized_pnl": 131.86,
-        "unrealized_pnl_pct": 4.41,
-        "strategy": "S4-panic-rebound"
-      },
-      {
-        "symbol": "ETH",
-        "quantity": 0.733459806,
-        "platform": "OKX Demo",
-        "current_price": 2179.15,
-        "avg_entry": 2036.88,
-        "market_value": 1598.32,
-        "unrealized_pnl": 104.35,
-        "unrealized_pnl_pct": 6.98,
-        "strategy": "S4-panic-rebound"
-      },
-      {
-        "symbol": "SOL",
-        "quantity": 6.237368388,
-        "platform": "OKX Demo",
-        "current_price": 82.19,
-        "avg_entry": 79.84,
-        "market_value": 512.65,
-        "unrealized_pnl": 14.66,
-        "unrealized_pnl_pct": 2.94,
-        "strategy": "S4-panic-rebound"
-      }
-    ],
-    "us_stocks": [
-      {
-        "symbol": "CEG",
-        "quantity": 10.990212968,
-        "avg_entry": 272.970142,
-        "current_price": 285.01,
-        "market_value": 3132.320598,
-        "unrealized_pnl": 132.320604,
-        "unrealized_pnl_pct": 4.4110000000000005,
-        "platform": "Alpaca Paper",
-        "strategy": "Leopold-AI-Energy"
-      },
-      {
-        "symbol": "VST",
-        "quantity": 13.150203599,
-        "avg_entry": 152.0889,
-        "current_price": 155.82,
-        "market_value": 2049.064725,
-        "unrealized_pnl": 49.064725,
-        "unrealized_pnl_pct": 2.453,
-        "platform": "Alpaca Paper",
-        "strategy": "Leopold-AI-Energy"
-      }
-    ]
-  },
-  "strategies": {
-    "S4-panic-rebound": {
-      "positions": [
-        "BTC",
-        "ETH",
-        "SOL"
-      ],
-      "total_value": 5230.74,
-      "total_pnl": 250.87
-    },
-    "Leopold-AI-Energy": {
-      "positions": [
-        "CEG",
-        "VST"
-      ],
-      "total_value": 5181.385323,
-      "total_pnl": 181.385329
-    }
+  "generated_at": "2026-04-10T09:21:27.317523+00:00",
+  "generated_at_local": "2026-04-10 10:21:27",
+  "summary": {
+    "total_capital": 183569.92,
+    "total_invested": 19484.95,
+    "total_market_value": 19972.92,
+    "total_unrealized_pnl": 487.96,
+    "okx_equity": 83381.02,
+    "alpaca_equity": 100188.9,
+    "alpaca_cash": 85500.0,
+    "okx_usdt": 78097,
+    "position_count": 6
   },
   "market": {
-    "spy": 6782.81,
-    "vix": 21.04,
-    "crypto_fear_greed": 14,
-    "crypto_fear_greed_label": "Extreme Fear",
-    "btc": 70974.78,
-    "eth": 2179.15,
-    "sol": 82.19
-  }
+    "crypto_temperature": 30,
+    "us_temperature": 41,
+    "overall_temperature": 35.5,
+    "fear_greed": 14,
+    "btc_price": 71761.41,
+    "btc_rsi": 55,
+    "spy_price": 676.01,
+    "vix_proxy": 30.64,
+    "avi_score": 5.67,
+    "avi_interpretation": "貴但不危險"
+  },
+  "positions": [
+    {
+      "symbol": "BTC",
+      "instId": "BTC-USDT",
+      "qty": 0.044,
+      "avg_price": 67975,
+      "current_price": 71761.41,
+      "market_value": 3157.5,
+      "unrealized_pnl": 166.6,
+      "unrealized_pnl_pct": 5.6,
+      "platform": "OKX Demo"
+    },
+    {
+      "symbol": "ETH",
+      "instId": "ETH-USDT",
+      "qty": 0.7342,
+      "avg_price": 2037,
+      "current_price": 2189.03,
+      "market_value": 1607.19,
+      "unrealized_pnl": 111.62,
+      "unrealized_pnl_pct": 7.5,
+      "platform": "OKX Demo"
+    },
+    {
+      "symbol": "SOL",
+      "instId": "SOL-USDT",
+      "qty": 6.2436,
+      "avg_price": 79.84,
+      "current_price": 83.18,
+      "market_value": 519.33,
+      "unrealized_pnl": 20.84,
+      "unrealized_pnl_pct": 4.2,
+      "platform": "OKX Demo"
+    },
+    {
+      "symbol": "CEG",
+      "qty": 10.990212968,
+      "avg_price": 272.970142,
+      "current_price": 281.0,
+      "market_value": 3088.249844,
+      "unrealized_pnl": 88.24985,
+      "unrealized_pnl_pct": 2.942,
+      "platform": "Alpaca"
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 25.573382147,
+      "avg_price": 371.48,
+      "current_price": 374.69,
+      "market_value": 9582.090557,
+      "unrealized_pnl": 82.090557,
+      "unrealized_pnl_pct": 0.864,
+      "platform": "Alpaca"
+    },
+    {
+      "symbol": "VST",
+      "qty": 13.150203599,
+      "avg_price": 152.0889,
+      "current_price": 153.5,
+      "market_value": 2018.556252,
+      "unrealized_pnl": 18.556252,
+      "unrealized_pnl_pct": 0.928,
+      "platform": "Alpaca"
+    }
+  ],
+  "strategies": [
+    {
+      "id": "S1",
+      "name": "動能突破 (Momentum Breakout)",
+      "master": "Minervini",
+      "status": "monitoring",
+      "signal": "neutral",
+      "note": "VCP+RS Screener 就緒，等待突破信號"
+    },
+    {
+      "id": "S2",
+      "name": "價值低估 (Value Undervalued)",
+      "master": "Buffett + 段永平 + Marks",
+      "status": "active",
+      "signal": "buy",
+      "note": "MSFT 半倉已建，QCOM 持續觀察 (moat 風險)"
+    },
+    {
+      "id": "S3",
+      "name": "週期輪動 (Cycle Rotation)",
+      "master": "Kostolany + Lynch + Leopold",
+      "status": "active",
+      "signal": "buy",
+      "note": "Crypto 溫度 30 (偏冷)，US 溫度 41 (中性)"
+    },
+    {
+      "id": "S4",
+      "name": "恐慌反彈 (Panic Rebound)",
+      "master": "Marks + Kostolany",
+      "status": "active",
+      "signal": "hold",
+      "note": "Batch 1 已執行。Batch 2 觸發：F&G<10(now=14), BTC跌10%, RSI<25 → 0/3"
+    },
+    {
+      "id": "S5",
+      "name": "趨勢追蹤 (Trend Following)",
+      "master": "Minervini + Kostolany",
+      "status": "monitoring",
+      "signal": "neutral",
+      "note": "等待確認上升趨勢後啟動"
+    },
+    {
+      "id": "Leopold",
+      "name": "AI 供應鏈分層 (Leopold Layers)",
+      "master": "Leopold Aschenbrenner",
+      "status": "active",
+      "signal": "hold",
+      "note": "L0 能源 (CEG+VST) 已建倉，L2 雲端 (MSFT) 半倉"
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "QCOM",
+      "theme": "CPU",
+      "status": "research",
+      "note": "Fwd PE 11.5，但 moat 風險 (Apple 自研基帶)"
+    },
+    {
+      "symbol": "LITE",
+      "theme": "光通訊",
+      "status": "watch",
+      "note": "太貴 (PE 238)，等回撤"
+    },
+    {
+      "symbol": "CIEN",
+      "theme": "光通訊",
+      "status": "watch",
+      "note": "接近高點，RSI 69"
+    },
+    {
+      "symbol": "RKLB",
+      "theme": "太空",
+      "status": "watch",
+      "note": "-30% from high，等 S1 突破信號"
+    }
+  ],
+  "pending_orders": []
 }

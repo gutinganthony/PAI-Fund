@@ -1,4 +1,13 @@
+# Secrets
 .env
+
+# Python
 *.pyc
 __pycache__/
+
+# Local DB (will be recreated)
 journal/*.db
+
+# OS
+.DS_Store
+Thumbs.db
