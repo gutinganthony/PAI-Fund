@@ -1,0 +1,62 @@
+{
+  "subject": "巴逆逆 (8zz / 吃土鋁繩-巴逆逆)",
+  "facebook": "https://www.facebook.com/DieWithoutBang/",
+  "nickname": "反指標女神 / 股海冥燈",
+  "known_trades": [
+    {
+      "date": "2024-07-15",
+      "ticker": "2408.TW",
+      "name": "南亞科",
+      "direction": "BUY",
+      "context": "南亞科追高買進，後跌5%停損",
+      "price": 67.7,
+      "ret_1d": -0.3,
+      "ret_5d": -8.57,
+      "ret_20d": -19.79,
+      "ret_60d": -31.17
+    },
+    {
+      "date": "2024-09-15",
+      "ticker": "00632R.TW",
+      "name": "台灣50反1",
+      "direction": "BUY",
+      "context": "買進台灣50反1(做空ETF) 看空台股",
+      "price": 3.48,
+      "ret_1d": 0.86,
+      "ret_5d": -2.87,
+      "ret_20d": -7.76,
+      "ret_60d": -4.02
+    },
+    {
+      "date": "2025-03-18",
+      "ticker": "2330.TW",
+      "name": "台積電",
+      "direction": "BEARISH",
+      "context": "台積電失守1000元 她被指為元凶(網友戲稱)",
+      "price": 956.72,
+      "ret_1d": -1.96,
+      "ret_5d": 1.96,
+      "ret_20d": -12.77,
+      "ret_60d": 1.96
+    }
+  ],
+  "notable_events": [
+    {
+      "date": "2025-04-09",
+      "event": "發文要全部停損",
+      "result": "隔天台股史上最大漲點 (+2070點)",
+      "media_coverage": "全國主要媒體報導"
+    },
+    {
+      "date": "2024-08",
+      "event": "康霈停損",
+      "result": "停損後股價反彈33%"
+    }
+  ],
+  "assessment": {
+    "contrarian_strength": "STRONG (qualitative)",
+    "data_quality": "LOW (news reports only)",
+    "sample_size": "INSUFFICIENT (<10)",
+    "recommendation": "Monitor as qualitative sentiment indicator, not quantitative signal"
+  }
+}
