@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-11",
+  "timestamp": "2026-04-11T02:00:16.633473",
+  "market": {
+    "crypto_temp": 36.0,
+    "us_temp": 50.0,
+    "overall_temp": 43.0,
+    "fear_greed": 15.0,
+    "btc_price": 72852.13,
+    "btc_rsi": 67.6,
+    "vix_proxy": 0
+  },
+  "positions": [
+    {
+      "symbol": "CEG",
+      "platform": "Alpaca",
+      "qty": 10.990212968,
+      "avg_price": 272.970142,
+      "current_price": 285.69,
+      "pnl_pct": 4.66,
+      "market_value": 3139.793943
+    },
+    {
+      "symbol": "MSFT",
+      "platform": "Alpaca",
+      "qty": 25.573382147,
+      "avg_price": 371.48,
+      "current_price": 371.6999,
+      "pnl_pct": 0.059000000000000004,
+      "market_value": 9505.623587
+    },
+    {
+      "symbol": "VST",
+      "platform": "Alpaca",
+      "qty": 13.150203599,
+      "avg_price": 152.0889,
+      "current_price": 154.73,
+      "pnl_pct": 1.737,
+      "market_value": 2034.731003
+    },
+    {
+      "symbol": "BTC",
+      "platform": "OKX Demo",
+      "qty": 0.044,
+      "avg_price": 67975,
+      "current_price": 72852.13,
+      "pnl_pct": 7.2,
+      "market_value": 3205.49
+    },
+    {
+      "symbol": "ETH",
+      "platform": "OKX Demo",
+      "qty": 0.7342,
+      "avg_price": 2037,
+      "current_price": 2239.4866,
+      "pnl_pct": 9.9,
+      "market_value": 1644.23
+    },
+    {
+      "symbol": "SOL",
+      "platform": "OKX Demo",
+      "qty": 6.2436,
+      "avg_price": 79.84,
+      "current_price": 84.698746,
+      "pnl_pct": 6.1,
+      "market_value": 528.83
+    }
+  ],
+  "s4_check": {
+    "conditions": {
+      "fg_below_10": false,
+      "btc_drop_10pct": false,
+      "rsi_below_25": false
+    },
+    "triggered_count": 0,
+    "should_execute": false,
+    "fear_greed": 15.0,
+    "btc_rsi": 67.6,
+    "btc_price": 72852.13
+  },
+  "alerts": [],
+  "summary": "Crypto:36.0 US:50.0 F&G:15.0 | 6 positions | S4: 0/3 | Alerts: 0"
+}

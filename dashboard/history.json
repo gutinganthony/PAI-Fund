@@ -9,5 +9,16 @@
     "crypto_temp": 36.2,
     "us_temp": 50.0,
     "fear_greed": 16.0
+  },
+  {
+    "date": "2026-04-11",
+    "total_capital": 183655.22,
+    "invested_value": 20058.7,
+    "invested_cost": 0.0,
+    "unrealized_pnl": 20058.7,
+    "position_count": 6,
+    "crypto_temp": 36.0,
+    "us_temp": 50.0,
+    "fear_greed": 15.0
   }
 ]
